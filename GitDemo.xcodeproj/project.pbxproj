@@ -14,6 +14,7 @@
 		049EA2B01C2010880051C4B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 049EA2AE1C2010880051C4B0 /* LaunchScreen.storyboard */; };
 		049EA2BB1C2010880051C4B0 /* GitDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049EA2BA1C2010880051C4B0 /* GitDemoTests.swift */; };
 		049EA2C61C2010880051C4B0 /* GitDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049EA2C51C2010880051C4B0 /* GitDemoUITests.swift */; };
+		049EA2D41C2010F80051C4B0 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049EA2D31C2010F80051C4B0 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		049EA2C11C2010880051C4B0 /* GitDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		049EA2C51C2010880051C4B0 /* GitDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitDemoUITests.swift; sourceTree = "<group>"; };
 		049EA2C71C2010880051C4B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		049EA2D31C2010F80051C4B0 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				049EA2A51C2010880051C4B0 /* AppDelegate.swift */,
 				049EA2A71C2010880051C4B0 /* ViewController.swift */,
+				049EA2D31C2010F80051C4B0 /* SecondViewController.swift */,
 				049EA2A91C2010880051C4B0 /* Main.storyboard */,
 				049EA2AC1C2010880051C4B0 /* Assets.xcassets */,
 				049EA2AE1C2010880051C4B0 /* LaunchScreen.storyboard */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				049EA2D41C2010F80051C4B0 /* SecondViewController.swift in Sources */,
 				049EA2A81C2010880051C4B0 /* ViewController.swift in Sources */,
 				049EA2A61C2010880051C4B0 /* AppDelegate.swift in Sources */,
 			);
