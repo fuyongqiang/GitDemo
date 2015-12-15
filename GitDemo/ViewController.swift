@@ -11,10 +11,15 @@ import UIKit
 class ViewController: UIViewController {
     
     var sum: Int = 0
+    
+    func sayHello() {
+        print("Hello")
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        sayHello()
     }
 
     override func didReceiveMemoryWarning() {
