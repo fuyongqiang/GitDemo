@@ -11,10 +11,15 @@ import UIKit
 class ViewController: UIViewController {
     
     var sum: Int = 0
+    
+    func increaseSum() {
+        ++sum
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        increaseSum()
     }
 
     override func didReceiveMemoryWarning() {
