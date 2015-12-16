@@ -21,7 +21,7 @@ class ViewController: UIViewController {
     }
     
     func sayByeBye() {
-        print("ByeBye")
+        print("Bye Bye")
     }
 
     func sayHello() {
@@ -30,6 +30,10 @@ class ViewController: UIViewController {
     
     func play() {
         print("Playing...")
+    }
+    
+    func makeChange() {
+        print("It was changed")
     }
     
     override func viewDidLoad() {
