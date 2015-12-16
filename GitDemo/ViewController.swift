@@ -12,6 +12,10 @@ class ViewController: UIViewController {
     
     var sum: Int = 0
     
+    func writeOnGithub() {
+        print("It's on website")
+    }
+    
     func increaseSum() {
         ++sum
     }
