@@ -28,6 +28,10 @@ class ViewController: UIViewController {
         print("Playing...")
     }
     
+    func makeChange() {
+        print("It was changed")
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
