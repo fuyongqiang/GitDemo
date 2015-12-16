@@ -15,6 +15,10 @@ class ViewController: UIViewController {
     func increaseSum() {
         ++sum
     }
+    
+    func sayByeBye() {
+        print("ByeBye")
+    }
 
     func sayHello() {
         print("Hello World!")
